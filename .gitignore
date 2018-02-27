@@ -1,2 +1,5 @@
 CalculatorNodeServer/node_modules/*
 CalculatorNodeServer/.idea/*
+reactapp/.idea/*
+reactapp/node_modules/*
+reactapp/.gitignore
