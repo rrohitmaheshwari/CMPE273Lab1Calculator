@@ -4,3 +4,4 @@ reactapp/.idea/*
 reactapp/node_modules/*
 reactapp/.gitignore
 *.xml
+reactapp/.idea/workspace.xml
