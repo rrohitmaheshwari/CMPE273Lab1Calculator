@@ -1,5 +1,84 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+
+.calBut {
+    background: rgba(0, 0, 0, 0.5); /* light background with opacity 50% */
+    border: 1px solid #111; /* black border */
+    color: #ffffff; /* white text */
+    border-radius: 5px; /* rounded corners */
+    font-size: 22px; /* larger fonts */
+    cursor: pointer; /* make it look clickable */
+    width: 50px;
+    margin-left: 5px;
+    box-shadow: 0 2px #666;
+    margin-bottom: 4px;
+}
+
+.calBut:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.calBut:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(1px);
+}
+
+.calc {
+    width: 230px;
+    background-color: #fff;
+    margin-left: 37%;
+    margin-top: 5%;
+    border-style: solid;
+    border-width: thin;
+    background-color: #b9b9b9;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    box-shadow: 10px 10px 5px grey;
+
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 1px;
+    height: 60px;
+    width: 100%;
+}
+
+.resulttext {
+
+    font-size: 25px; /* small fonts */
+    border-style: solid;
+    border-width: thin;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #fff;
+
+}
+
+.calButControl {
+    background: rgb(242, 136, 38); /* light background with opacity 50% */
+    border: 1px solid #111; /* black border */
+    color: #f4fcff; /* white text */
+    border-radius: 5px; /* rounded corners */
+    font-size: 22px; /* larger fonts */
+    cursor: pointer; /* make it look clickable */
+    width: 50px;
+    margin-left: 5px;
+    box-shadow: 0 2px #666;
+    margin-bottom: 4px;
+
+}
+
+.calButControl:hover {
+    background-color: #4c65af; /* Green */
+    color: white;
+
+}
+
+.calButControl:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(1px);
 }
