@@ -5,7 +5,7 @@ const headers = {
 };
 
 export const doPost = (payload) =>
-    fetch(`${api}/index`, {
+    fetch(`${api}/evaluate`, {
         "crossDomain": true,
         method: 'POST',
         headers: {
